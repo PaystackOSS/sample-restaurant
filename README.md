@@ -1,54 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Sample Restaurant
+This app simulates an in-person experience in a restaurant where a customer comes in, selects their meals, and completes payment without the intervention of the restaurant's staff.
 
-## 🚀 Quick start
+## Prerequisite
+1. **Terminal**
+    
+    You need a Paystack Terminal to complete the payment flow of this app. Kindly make a request via support@paystack.com
 
-1.  **Create a Gatsby site.**
+2. **Gatsby cloud**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Gatsby functions was used for all API calls to Paystack. You'll need a [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) account if you want to deploy your copy of this site
+
+    [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+3. **Pusher account**
+
+    Pusher was used to manage real-time updates on payment completion. You'll need to create a [Pusher Channel](https://pusher.com/channels) to use this feature. Alternatively, you can implement websockets.
+
+## 🚀 Getting started
+
+1.  **Clone  the project**
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    git clone git@github.com:PaystackOSS/sample-restaurant.git
     ```
 
-2.  **Start developing.**
+2.  **Start developing**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd sample-restaurant/
+    yarn develop
     ```
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+    Your site should be running at http://localhost:8000!
+    
+    You should add your environment variable in your `.env` file. Kindly check the `.env.sample` file  for the required environment variables. 
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
