@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "burger_bk_1.png",
+    "name": "Burger",
+    "price": 50,
+    "calories": 750,
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "image": "burrito.png",
+    "name": "Burrito",
+    "price": 50,
+    "calories": 205,
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "image": "pancake_and_sausage_platter.png",
+    "name": "Pancake & Sausage",
+    "price": 20,
+    "calories": 805,
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "image": "chicken_salad.png",
+    "name": "Chicken Salad",
+    "price": 30,
+    "calories": 870,
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "image": "french_toast.png",
+    "name": "French Toast",
+    "price": 3000,
+    "calories": 588,
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "image": "whopper.png",
+    "name": "Whopper",
+    "price": 5000,
+    "calories": 657,
+    "quantity": 1
+  }
+]

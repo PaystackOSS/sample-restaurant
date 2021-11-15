@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  margin-bottom: 70px;
+  justify-content: space-between;
+
+  &__brand {
+
+    svg {
+      margin-inline-end: 8px;
+    }
+  }
+
+  &__items {
+    display: flex;
+  }
+
+  &__cart {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-radius: 50px;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 10px;
+      font-size: 0.9rem;
+    }
+  }
+}

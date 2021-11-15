@@ -1,0 +1,10 @@
+:root {
+  --primary-color: rgb(245, 235, 220);
+  --primary-color-lighten: rgb(245, 235, 220, .65);
+  --secondary-color: rgb(80, 35, 20);
+  --secondary-color-alpha-20: rgba(80, 35, 20, 0.2);
+  --link-color:rgb(214, 35, 0);
+  --accent-color: rgb(27, 135, 55);
+  --accent-color-alpha-70: rgba(27, 135, 55, 0.7);
+  --shadow: rgba(0, 0, 0, 0.2)
+}

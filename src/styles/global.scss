@@ -1,0 +1,10 @@
+@import url('./reset.css');
+@import url('./theme.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body {
+  background-color: var(--primary-color-lighten);
+  color: var(--secondary-color);
+  font-family: 'Montserrat', sans-serif;
+}

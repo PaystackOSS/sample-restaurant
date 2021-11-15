@@ -1,0 +1,53 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.product {
+  background-color: var(--primary-color);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 var(--shadow);
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 var(--shadow);
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 22px;
+  }
+}
+
+.product-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__price {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  
+  &__calories {
+    grid-row: 2;
+    color: var(--link-color);
+  }
+
+  &__cart {
+    width: 32px;
+    height: 32px;
+    grid-column: 3;
+    grid-row: 1  / 3;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-color: var(--secondary-color);
+    padding: 6px 8px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
