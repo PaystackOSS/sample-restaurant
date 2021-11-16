@@ -10,7 +10,7 @@ This app simulates an in-person experience in a restaurant where a customer come
 
     Gatsby functions was used for all API calls to Paystack. You'll need a [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) account if you want to deploy your copy of this site
 
-    [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+    [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/PaystackOSS/sample-restaurant)
 
 3. **Pusher account**
 
