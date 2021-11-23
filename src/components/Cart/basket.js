@@ -56,52 +56,11 @@ const Basket = ({products, status}) => {
   }
 
   const pushToTerminal = (id, offline_reference) => {
-    const data = {
-      id,
-      offline_reference
-    }
 
-    fetch('/api/push_to_terminal', {
-      method: "POST",
-      body: JSON.stringify(data)
-    })
-    .then((response) =>  response.json())
-    .then((data) =>  console.log("Data: ", data))
-    .catch(function(err) {
-      return err;
-    });
   }
 
   const createInvoice = () => {
-    setLoading(true)
-    const line_items = []
-
-    for(let product of products) {
-      line_items.push({
-        name: product.name,
-        amount: product.price * 100,
-        quantity: product.quantity
-      })
-    }
-
-    const data = {
-      customer: "CUS_soft6lhg8dhhjj6",
-      description: "Invoice for Temi",
-      line_items
-    }
-
-    fetch('/api/create_invoice', {
-      method: "POST",
-      body: JSON.stringify(data)
-    })
-    .then((data) =>  data.json())
-    .then((response) => { 
-      const {id, offline_reference} = response.data
-      pushToTerminal(id, offline_reference)
-    })
-    .catch(function(err) {
-      return err;
-    });
+    
   }
 
   return (
