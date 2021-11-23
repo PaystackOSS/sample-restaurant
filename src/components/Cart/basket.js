@@ -86,7 +86,7 @@ const Basket = ({products, status}) => {
 
     const data = {
       customer: "CUS_soft6lhg8dhhjj6",
-      description: "Burger King Invoice",
+      description: "Invoice for Temi",
       line_items
     }
 

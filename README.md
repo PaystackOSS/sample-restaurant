@@ -30,6 +30,7 @@ This app simulates an in-person experience in a restaurant where a customer come
 
     ```shell
     cd sample-restaurant/
+    yarn
     yarn develop
     ```
 
