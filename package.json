@@ -23,7 +23,7 @@
     "gatsby-plugin-sharp": "^4.2.0",
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-transformer-sharp": "^4.2.0",
-    "node-fetch": "^3.1.0",
+    "node-fetch": "^3.2.10",
     "pusher": "^5.0.0",
     "pusher-js": "^7.0.3",
     "react": "^17.0.1",
